@@ -19,6 +19,12 @@ To write a program to implement the the Logistic Regression Model to Predict the
 
 ## Program:
 ```
+/*
+Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
+Developed by: Andra likitha
+RegisterNumber: 212221220006 
+*/
+
 import pandas as pd
 data=pd.read_csv('/content/Placement_Data.csv')
 print("Placement data:")
@@ -86,11 +92,6 @@ print("Prediction of LR:")
 lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
 
 
-/*
-Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
-Developed by: Andra likitha
-RegisterNumber: 212221220006 
-*/
 ```
 
 ## Output:
